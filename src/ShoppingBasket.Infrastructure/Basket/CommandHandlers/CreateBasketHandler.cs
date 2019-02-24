@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using EventFlow.Commands;
 using ShoppingBasket.Core.Application.Commands;
-using ShoppingBasket.Core.Common;
+using ShoppingBasket.Core.Domain.Basket;
 using ShoppingBasket.Core.Domain.Basket.Models;
 
 namespace ShoppingBasket.Infrastructure.Basket.CommandHandlers

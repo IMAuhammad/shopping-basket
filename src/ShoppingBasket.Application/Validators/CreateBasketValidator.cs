@@ -1,13 +1,9 @@
 ﻿using FluentValidation;
 using ShoppingBasket.Application.Dtos.Requests;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace ShoppingBasket.WebApi.Validators
+namespace ShoppingBasket.Application.Validators
 {
-    public class CreateBasketValidator : AbstractValidator<CreateBasketRequest>
+    public sealed class CreateBasketValidator : AbstractValidator<CreateBasketRequest>
     {
         public CreateBasketValidator()
         {

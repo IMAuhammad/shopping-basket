@@ -1,9 +1,6 @@
 ﻿using EventFlow.Commands;
-using ShoppingBasket.Core.Common;
 using ShoppingBasket.Core.Domain.Basket.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using ShoppingBasket.Core.Domain.Basket;
 
 namespace ShoppingBasket.Core.Application.Commands
 {

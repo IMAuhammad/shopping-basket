@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ShoppingBasket.Core.Domain.Basket.Models
+﻿namespace ShoppingBasket.Core.Domain.Basket.Models
 {
     public sealed class BasketItem
     {

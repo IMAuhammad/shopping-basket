@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
 using ShoppingBasket.Application.Dtos.Requests;
 
-namespace ShoppingBasket.WebApi.Validators
+namespace ShoppingBasket.Application.Validators
 {
-    public class AdjustQuantityValidator : AbstractValidator<AdjustQuantityRequest>
+    public sealed class AdjustQuantityValidator : AbstractValidator<AdjustQuantityRequest>
     {
         public AdjustQuantityValidator()
         {

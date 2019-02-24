@@ -1,13 +1,10 @@
 ﻿using EventFlow.Commands;
-using ShoppingBasket.Core.Common;
 using ShoppingBasket.Core.Domain.Basket.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using ShoppingBasket.Core.Domain.Basket;
 
 namespace ShoppingBasket.Core.Application.Commands
 {
-    public class RemoveItem : Command<BasketAggregate, BasketId>
+    public sealed class RemoveItem : Command<BasketAggregate, BasketId>
     {
         public RemoveItem(BasketId aggregateId, string productName) : base(aggregateId)
         {

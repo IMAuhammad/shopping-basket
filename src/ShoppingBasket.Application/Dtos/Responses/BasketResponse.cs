@@ -1,6 +1,5 @@
 ﻿namespace ShoppingBasket.Application.Dtos.Responses
 {
-    using ShoppingBasket.Core.Common;
     using System;
     using System.Collections.Generic;
 

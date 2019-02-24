@@ -1,5 +1,4 @@
 ﻿using EventFlow.Aggregates;
-using ShoppingBasket.Core.Common;
 using ShoppingBasket.Core.Domain.Basket.Models;
 
 namespace ShoppingBasket.Core.Domain.Basket.Events

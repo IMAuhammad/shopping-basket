@@ -1,7 +1,5 @@
 ﻿using EventFlow.Aggregates;
-using ShoppingBasket.Core.Common;
 using ShoppingBasket.Core.Domain.Basket.Events;
-using ShoppingBasket.Core.Domain.Basket.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

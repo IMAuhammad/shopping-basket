@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ShoppingBasket.Core.Domain.Basket.Exceptions
+namespace ShoppingBasket.Core.Domain.Basket
 {
-    class BasketException : Exception
+    public sealed class BasketException : Exception
     {
         public BasketException(string exceptionMessage) : base(exceptionMessage)
         {

@@ -1,7 +1,7 @@
 ﻿using EventFlow.Commands;
-using ShoppingBasket.Core.Common;
 using ShoppingBasket.Core.Domain.Basket.Models;
 using System;
+using ShoppingBasket.Core.Domain.Basket;
 
 namespace ShoppingBasket.Core.Application.Commands
 {

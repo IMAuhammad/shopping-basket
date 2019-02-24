@@ -1,11 +1,10 @@
-﻿using ShoppingBasket.Application.Dtos.Responses;
-using ShoppingBasket.Core.Common;
+﻿using System.Linq;
+using ShoppingBasket.Application.Dtos.Responses;
 using ShoppingBasket.Infrastructure.Basket.Models;
-using System.Linq;
 
-namespace ShoppingBasket.Application.Services
+namespace ShoppingBasket.Application.Extensions
 {
-    public static class Extensions
+    public static class BasketExtensions
     {
         public static BasketResponse ToBasketResponse(this BasketReadModel basketReadModel)
         {

@@ -1,11 +1,11 @@
 ﻿using EventFlow.Aggregates;
 using EventFlow.ReadStores;
-using ShoppingBasket.Core.Common;
 using ShoppingBasket.Core.Domain.Basket.Events;
 using ShoppingBasket.Core.Domain.Basket.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using ShoppingBasket.Core.Domain.Basket;
 
 namespace ShoppingBasket.Infrastructure.Basket.Models
 {

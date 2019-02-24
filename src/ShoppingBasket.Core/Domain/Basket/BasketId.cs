@@ -1,7 +1,7 @@
-﻿namespace ShoppingBasket.Core.Common
-{
-    using EventFlow.Core;
+﻿using EventFlow.Core;
 
+namespace ShoppingBasket.Core.Domain.Basket
+{
     public class BasketId : 
         Identity<BasketId>
     {
