@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace ShoppingBasket.Core.Domain.Basket.Models
 {
-    public class BasketAggregate : 
+    public sealed class BasketAggregate : 
         AggregateRoot<BasketAggregate, BasketId>, 
         IEmit<BasketCreated>
     {
