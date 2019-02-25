@@ -5,13 +5,15 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.WebApi", "src\ShoppingBasket.WebApi\ShoppingBasket.WebApi.csproj", "{C20CF587-005B-4CFD-BB92-D6146584FA35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Core", "src\ShoppingBasket.Core\ShoppingBasket.Core.csproj", "{F190AFA8-C511-414C-B5C0-5774CEF365BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Core", "src\ShoppingBasket.Core\ShoppingBasket.Core.csproj", "{F190AFA8-C511-414C-B5C0-5774CEF365BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Infrastructure", "src\ShoppingBasket.Infrastructure\ShoppingBasket.Infrastructure.csproj", "{C99FDDB6-D36E-423D-A548-F24E59B9D0E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Infrastructure", "src\ShoppingBasket.Infrastructure\ShoppingBasket.Infrastructure.csproj", "{C99FDDB6-D36E-423D-A548-F24E59B9D0E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Application", "src\ShoppingBasket.Application\ShoppingBasket.Application.csproj", "{2BD6918D-CF4F-46D2-86F2-1CBEE10A6526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Application", "src\ShoppingBasket.Application\ShoppingBasket.Application.csproj", "{2BD6918D-CF4F-46D2-86F2-1CBEE10A6526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Client", "src\ShoppingBasket.Client\ShoppingBasket.Client.csproj", "{B43611FE-857D-4E53-99AC-53AC0EB37473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Client", "src\ShoppingBasket.Client\ShoppingBasket.Client.csproj", "{B43611FE-857D-4E53-99AC-53AC0EB37473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Core.Tests", "tests\ShoppingBasket.Core.Tests\ShoppingBasket.Core.Tests.csproj", "{A2E008AB-BED2-4A49-9F43-5AEB72B56732}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B43611FE-857D-4E53-99AC-53AC0EB37473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B43611FE-857D-4E53-99AC-53AC0EB37473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B43611FE-857D-4E53-99AC-53AC0EB37473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E008AB-BED2-4A49-9F43-5AEB72B56732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E008AB-BED2-4A49-9F43-5AEB72B56732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E008AB-BED2-4A49-9F43-5AEB72B56732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E008AB-BED2-4A49-9F43-5AEB72B56732}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
