@@ -27,7 +27,7 @@ namespace ShoppingBasket.WebApi.Controllers
             this.commandBus = commandBus;
             this.queryProcessor = queryProcessor;
         }
-
+        
         // POST /api/v1/basket
         [HttpPost(Name = "CreateBasket")]
         [ProducesResponseType(201)]
